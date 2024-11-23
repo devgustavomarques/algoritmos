@@ -1,13 +1,15 @@
 algoritmo "GERAR TABUADA"
 
-// Fazendo tabuada com estrutura REPITA
-// Exemplo: tabuada do 7
+// Usuário vai digitar um número
+// E o Algoritmo irá gerar a tabuada dele
 
 var
    contador, N, R: Inteiro
 inicio
       contador <- 1
-      N <- 7
+      
+      Escreva ("Quer ver a tabuada de qual número? ")
+      Leia (N)
       
       Repita
       R <- N * contador
